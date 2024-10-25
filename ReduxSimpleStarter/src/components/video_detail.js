@@ -4,6 +4,7 @@ const VideoDetail = ({ video }) => {
   if (!video) {
     return <div>Loading...</div>;
   }
+  //how
   const videoId = video.id.videoId;
   const url = `https://www.youtube.com/embed/${videoId}`;
   //bindhu reddy is clever
@@ -21,11 +22,9 @@ const VideoDetail = ({ video }) => {
   );
 };
 //newline
+//fifth line
 //fourth
 
 export default VideoDetail;
-
-// to add additional functionality like maintaining state we class component
-// class SearchBar extends React.Component{
 
 //bindhu reddy is clever
