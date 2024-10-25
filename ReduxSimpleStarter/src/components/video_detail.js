@@ -22,7 +22,7 @@ const VideoDetail = ({ video }) => {
   );
 };
 //newline
-//fivth line
+//fifth line
 //fourth
 
 export default VideoDetail;
