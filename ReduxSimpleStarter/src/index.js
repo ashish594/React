@@ -49,3 +49,5 @@ class App extends Component{
 }
 // setting the created component to display on browser
 ReactDOM.render(<App />, document.querySelector('.container'));
+
+console.log('index.js');
