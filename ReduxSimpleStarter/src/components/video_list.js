@@ -13,6 +13,7 @@ const VideoList = (props) => {
       );
     }
     //bindhu reddy is clever
+    //hari is also clever
   );
 
   return <ul className="col-md-4 list-group">{videoItems}</ul>;
