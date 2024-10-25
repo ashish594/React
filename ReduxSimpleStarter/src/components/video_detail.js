@@ -22,11 +22,9 @@ const VideoDetail = ({ video }) => {
   );
 };
 //newline
+//fivth line
 //fourth
 
 export default VideoDetail;
-
-// to add additional functionality like maintaining state we class component
-// class SearchBar extends React.Component{
 
 //bindhu reddy is clever
