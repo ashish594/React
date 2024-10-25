@@ -20,6 +20,7 @@ const VideoDetail = ({ video }) => {
     </div>
   );
 };
+//newline
 
 export default VideoDetail;
 
