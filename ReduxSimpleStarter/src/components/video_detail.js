@@ -6,7 +6,7 @@ const VideoDetail = ({ video }) => {
   }
   const videoId = video.id.videoId;
   const url = `https://www.youtube.com/embed/${videoId}`;
-
+  //bindhu reddy is clever
   return (
     <div className="video-detail col-md-8">
       <div className="embed-responsive embed-responsive-16by9">
@@ -24,3 +24,5 @@ export default VideoDetail;
 
 // to add additional functionality like maintaining state we class component
 // class SearchBar extends React.Component{
+
+//bindhu reddy is clever
