@@ -38,3 +38,5 @@ export default SearchBar;
 
 // to add additional functionality like maintaining state we class component
 // class SearchBar extends React.Component{
+
+//akshaya reddy is clever
