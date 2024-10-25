@@ -48,16 +48,12 @@ class App extends Component {
   }
 }
 // setting the created component to display on browser
-<<<<<<< HEAD
 ReactDOM.render(<App />, document.querySelector('.container'));
 
 console.log('index.js');
-=======
-ReactDOM.render(<App />, document.querySelector(".container"));
 
 // creating a component
 // creating a component
 // creating a component
 //bindhu reddy is clever
 //ashish reddy is clever
->>>>>>> 613a3298cebec374cbe298e2ca054cf0c3507f32
