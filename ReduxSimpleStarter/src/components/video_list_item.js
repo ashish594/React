@@ -1,22 +1,25 @@
-import React from "react";
-//listen
-const VideoListItem = ({ video, onVideoSelect }) => {
-  // const video = props.video; by ES6 we can directly include {video} as props & no need to declare explicitly
-  const imageUrl = "video.snippet.thumbnails.high.url";
-  return (
-    <li onClick={() => onVideoSelect(video)} className="list-group-item">
-      <div className="video-list media">
-        <div className="media-left">
-          <img className="media-object" src={imageUrl} />
-        </div>
+import React from 'react';
 
-        <div className="media-body">
-          <div className="media-heading">{video.snippet.title}</div>
+const VideoListItem = ({video, onVideoSelect}) => {
+   // const video = props.video; by ES6 we can directly include {video} as props & no need to declare explicitly
+   const imageUrl="video.snippet.thumbnails.high.url";
+return (
+    <li onClick = {() => onVideoSelect(video)} className="list-group-item">
+
+        <div className="video-list media">  
+
+            <div className="media-left">
+                <img className="media-object" src={imageUrl}/>
+            </div>
+
+            <div className="media-body">
+                <div className="media-heading">{video.snippet.title}</div>
+            </div>
+            
         </div>
-      </div>
     </li>
-  );
-  //listen
+    );
+
 };
 
-export default VideoListItem;
+export default VideoListItem; 
