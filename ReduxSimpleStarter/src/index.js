@@ -29,7 +29,6 @@ class App extends Component {
       });
     });
   }
-  //how
   render() {
     const videoSearch = _.debounce((term) => {
       this.videoSearch(term);
@@ -50,12 +49,13 @@ class App extends Component {
 }
 
 // setting the created component to display on browser
-ReactDOM.render(<App />, document.querySelector('.container'));
+ReactDOM.render(<App />, document.querySelector(".container"));
 
-console.log('index.js');
+console.log("index.js");
 
 // creating a component
 // creating a component
 // creating a component
 //bindhu reddy is clever
 //ashish reddy is clever
+//second line
