@@ -54,9 +54,4 @@ ReactDOM.render(<App />, document.querySelector(".container"));
 
 console.log("index.js");
 
-// creating a component
-// creating a component
-// creating a component
-//bindhu reddy is clever
-//ashish reddy is clever
-//second line
+//hello world
