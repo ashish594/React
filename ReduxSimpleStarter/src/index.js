@@ -29,7 +29,6 @@ class App extends Component {
       });
     });
   }
-  //how
   render() {
     const videoSearch = _.debounce((term) => {
       this.videoSearch(term);
@@ -54,4 +53,9 @@ ReactDOM.render(<App />, document.querySelector(".container"));
 
 console.log("index.js");
 
-//hello world
+// creating a component
+// creating a component
+// creating a component
+//bindhu reddy is clever
+//ashish reddy is clever
+//second line

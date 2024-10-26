@@ -4,7 +4,7 @@ const VideoDetail = ({ video }) => {
   if (!video) {
     return <div>Loading...</div>;
   }
-
+  //how
   const videoId = video.id.videoId;
   const url = `https://www.youtube.com/embed/${videoId}`;
 
@@ -20,5 +20,10 @@ const VideoDetail = ({ video }) => {
     </div>
   );
 };
+//newline
+//fifth line
+//fourth
 
 export default VideoDetail;
+
+//bindhu reddy is clever
